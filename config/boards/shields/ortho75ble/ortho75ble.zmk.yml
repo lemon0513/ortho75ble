@@ -1,0 +1,8 @@
+file_format: "1"
+id: ortho75ble
+name: Ortho75BLE
+type: shield
+url: https://github.com/lemon0513/ortho75ble.git
+requires: [pro_micro]
+features:
+  - keys
