@@ -25,12 +25,6 @@
     };
 
     macros {
-        macro0: macro0 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp N1 &kp N2 &kp N1 &kp N2 &kp N1 &kp N2 &kp N3>;
-            label = "MACRO0";
-        };
     };
 
     behaviors {
