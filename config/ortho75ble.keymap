@@ -54,7 +54,7 @@
 &kp TAB     &kp Q                  &kp W                  &kp E                  &kp R                  &kp T                  &kp KP_N7        &kp KP_N8  &kp KP_N9                          &kp Y                  &kp U                  &kp I                        &kp O                    &kp P                      &kp BSLH
 &kp CAPS    &kp A                  &kp S                  &kp D                  &kp F                  &kp G                  &kp KP_N4        &kp KP_N5  &kp KP_N6                          &kp H                  &kp J                  &kp K                        &kp L                    &auto_shift LS(SEMI) SEMI  &kp ENTER
 &kp LSHIFT  &kp Z                  &kp X                  &kp C                  &kp V                  &kp B                  &kp KP_N1        &kp KP_N2  &kp KP_N3                          &kp N                  &kp M                  &auto_shift LS(COMMA) COMMA  &auto_shift LS(DOT) DOT  &kp UP                     &kp DELETE
-&kp LCTRL   &mo 2                  &kp LWIN               &kp LALT               &kp SPACE              &kp SPACE              &kp KP_NUMBER_0  &kp KP_N0  &kp KP_DOT                         &kp SPACE              &mo 2                  &auto_shift LS(FSLH) FSLH    &kp LEFT                 &kp DOWN                   &kp RIGHT
+&kp LCTRL   &mo 2                  &kp LWIN               &kp LALT               &lt 1 SPACE            &lt 1 SPACE            &kp KP_NUMBER_0  &kp KP_N0  &kp KP_DOT                         &kp SPACE              &mo 2                  &auto_shift LS(FSLH) FSLH    &kp LEFT                 &kp DOWN                   &kp RIGHT
             >;
         };
 
