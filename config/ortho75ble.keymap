@@ -18,8 +18,28 @@
 
         combo_bksp {
             bindings = <&kp BACKSPACE>;
-            key-positions = <4 5>;
+            key-positions = <19 20>;
             layers = <0>;
+        };
+
+        combo_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <34 35>;
+        };
+
+        combo_delete {
+            bindings = <&kp DELETE>;
+            key-positions = <49 50>;
+        };
+
+        combo_ctrlenter {
+            bindings = <&kp LC(ENTER)>;
+            key-positions = <65 50>;
+        };
+
+        combo_pad {
+            bindings = <&tog 1>;
+            key-positions = <71 70>;
         };
     };
 
