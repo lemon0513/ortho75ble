@@ -80,11 +80,11 @@
 
         lower_layer {
             bindings = <
-&trans  &trans                 &trans                 &trans                       &trans                 &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans           &trans
-&trans  &auto_shift LS(N1) N1  &auto_shift LS(N2) N2  &auto_shift LS(N3) NUMBER_3  &auto_shift LS(N4) N4  &auto_shift LS(N5) N5  &trans  &trans  &trans  &kp N7  &kp N8  &kp N9  &kp KP_PLUS   &kp KP_ASTERISK  &trans
-&trans  &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES      &kp MINUS                    &kp EQUAL              &kp ENTER              &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &kp KP_MINUS  &kp KP_DIVIDE    &trans
-&trans  &kp HOME               &kp END                &kp LC(PG_UP)                &kp LC(PAGE_DOWN)      &kp NON_US_BACKSLASH   &trans  &trans  &trans  &kp N1  &kp N2  &kp N3  &kp COMMA     &trans           &trans
-&trans  &trans                 &trans                 &trans                       &trans                 &trans                 &trans  &trans  &trans  &kp N0  &kp N0  &kp N0  &trans        &trans           &trans
+&trans  &trans                 &trans                 &trans                       &trans                 &trans                 &trans  &trans  &trans  &trans                 &trans                 &trans                 &trans        &trans           &trans
+&trans  &auto_shift LS(N1) N1  &auto_shift LS(N2) N2  &auto_shift LS(N3) NUMBER_3  &auto_shift LS(N4) N4  &auto_shift LS(N5) N5  &trans  &trans  &trans  &auto_shift LS(N7) N7  &auto_shift LS(N8) N8  &auto_shift LS(N9) N9  &kp KP_PLUS   &kp KP_ASTERISK  &trans
+&trans  &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES      &kp MINUS                    &kp EQUAL              &kp ENTER              &trans  &trans  &trans  &auto_shift LS(N4) N4  &auto_shift LS(N5) N5  &auto_shift LS(N6) N6  &kp KP_MINUS  &kp KP_DIVIDE    &trans
+&trans  &kp HOME               &kp END                &kp LC(PG_UP)                &kp LC(PAGE_DOWN)      &kp NON_US_BACKSLASH   &trans  &trans  &trans  &auto_shift LS(N1) N1  &auto_shift LS(N2) N2  &auto_shift LS(N3) N3  &kp COMMA     &trans           &trans
+&trans  &trans                 &trans                 &trans                       &trans                 &trans                 &trans  &trans  &trans  &auto_shift LS(N0) N0  &auto_shift LS(N0) N0  &kp KP_DOT             &trans        &trans           &trans
             >;
         };
 
